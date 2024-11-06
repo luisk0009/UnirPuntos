@@ -61,8 +61,8 @@ header nav ul {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 
 /*tipos de letras*/
 
@@ -102,38 +102,16 @@ body {
 }
 
 
-/* prueba de adapatación dispositivos
-@media (max-width: 767px) {
-    .body {
-        font-size: 20px;
-        color: black;
-    }
-}
 
-@media (min-width: 1024px) {
-    .body {
-        font-size: 40px;
-        color: black;
-    }
-}
- */
 
-@media (min-width: 767px) {
-    .body {
-        width: 40%;
-    }
-}
-@media (min-width: 1024px) {
-    .body {
-        width: 30%;
-    }
-}
+
+
 
 /* BIENVENIDA */
 
 
 
-/* ACERCA DE NOSOTROS */ 
+/* ACERCA DE NOSOTROS */
 
 .contenedor1 {
     display: flex;
@@ -141,7 +119,7 @@ body {
     justify-content: center;
 }
 
-.texto  {
+.texto {
     font-size: 1.6rem;
     text-align: justify;
     color: #888888;
@@ -149,10 +127,10 @@ body {
     font-weight: 400;
     font-style: normal;
     max-width: 45rem;
-    
+
 }
 
-.texto  h2{
+.texto h2 {
     font-size: 3rem;
     text-align: center;
     font-family: "Abril Fatface", serif;
@@ -162,22 +140,22 @@ body {
 
 }
 
-.chat i{
-color: green;
-font-size: 3rem;
-position: fixed;
-    bottom: 5rem ;
-    left: 98rem ;
+.chat i {
+    color: green;
+    font-size: 3rem;
+    position: fixed;
+    bottom: 5rem;
+    left: 98rem;
     padding: 0.5rem;
 
 }
 
-.seccion1 img{
+.seccion1 img {
     margin-left: 2rem;
 
 }
 
-.titulodeservicios h1{
+.titulodeservicios h1 {
     font-size: 3rem;
     text-align: center;
     font-family: "Abril Fatface", serif;
@@ -186,19 +164,19 @@ position: fixed;
     color: rgb(18, 134, 155);
     margin-top: 4rem;
     margin-bottom: 4rem;
-}   
+}
 
 /* SERVICIOS OFRECIDOS */
-.servicios{
+.servicios {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     text-align: center;
 
 
 
     font-size: 1rem;
-    color: black;   
+    color: black;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -211,20 +189,15 @@ position: fixed;
 
 }
 
-.servicios img{
-    height: 10rem;
-    width: 20rem;
-}
-
-.servicios div h3{
+.servicios div h3 {
     font-size: 1.5rem;
     text-align: center;
     font-family: "Abril Fatface", serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(18, 134, 155);
-  
-    }
+
+}
 
 .conpuntos {
     list-style: disc;
@@ -232,40 +205,51 @@ position: fixed;
     text-align: left;
 }
 
-.servicios div{
-    background-color: #d7d6d8; /* Fondo suave */
+.servicios div {
+    background-color: #d7d6d8;
+    /* Fondo suave */
     padding: 2rem;
-    border-radius: 12px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: transform 0.3s ease; /* Efecto al pasar el mouse */
+    border-radius: 12px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    transition: transform 0.3s ease;
+    /* Efecto al pasar el mouse */
 }
 
 
 
-.agendaya{
-        background-color: white; /* Color de fondo */
-        padding: 2rem;
-        text-align: center;
-        font-size: 1.6rem;
-        color: black; /* Color del texto */
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-}    
-.agendaya{
+.agendaya {
+    background-color: white;
+    /* Color de fondo */
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: black;
+    /* Color del texto */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-        max-width: 80rem; /* Ancho máximo del párrafo */
-        margin: 0 auto; /* Centra el párrafo */
-        line-height: 1.5; /* Espacio entre líneas */
-    }
-    
-    .botonagendacita{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 4rem;
-    
-    }
+.agendaya {
+
+    max-width: 80rem;
+    /* Ancho máximo del párrafo */
+    margin: 0 auto;
+    /* Centra el párrafo */
+    line-height: 1.5;
+    /* Espacio entre líneas */
+}
+
+.botonagendacita {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
 /*estilos de forter pie de pagina */
 
 .footer {
@@ -309,29 +293,214 @@ position: fixed;
     display: flex;
 }
 
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 48px;
+    cursor: pointer;
+    display: none;
+}
 
 
+/* DISEÑO RESPONSIVE Estilos para pantallas grandes (por ejemplo, de escritorio)  */
+
+
+@media (min-width: 1024px) {
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .columna {
+        flex: 0.5;
+    }
+    
+}
+
+/* Estilos para pantallas medianas (por ejemplo, tablets) */
+@media (max-width: 1023px) and (min-width: 769px) {
+
+    .checkbtn {
+        display: block;
+        font-size: 2rem;
+        color: black;
+        cursor: pointer;/* Oculto por defecto */
+        float: right;
+        line-height: 80px;
+    }
+    
+    /* Ocultar el menú en pantallas pequeñas */
+    .barraprincipal ul {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(18, 134, 155);
+        width: 100%;
+        position: absolute;
+        top: 60px; /* Ajusta según el tamaño de tu header */
+        left: 0;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    /* Mostrar el menú cuando se selecciona el checkbox */
+    #check:checked ~ .menu {
+        display: flex;
+    }
+
+    .logo {
+        border-radius: 10rem;
+        padding-left: 5rem;
+        height: 10rem;
+        width: 10rem;
+    }
+
+
+    #seccionprincipal div img {
+        width: 15rem;
+        height: auto;
+    }
+
+    .bienvenida div {
+        margin-left: 0px;
+    }
+
+
+
+    .bienvenida h1 {
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+
+    }
+
+    .contenedor1 .texto {
+        font-size: 1.2rem;
+    }
+
+    .texto h2 {
+        font-size: 2rem;
+    }
+
+    .chat i {
+        bottom: 3rem;
+        left: 52rem;
+    }
+
+    .titulodeservicios h1 {
+        font-size: 2rem;
+    }
+
+    .servicios {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 2rem;
+
+
+    }
+
+
+}
+
+/* Estilos para pantallas pequeñas (por ejemplo, móviles) */
+@media (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12rem;
+        font-size: 1.5rem;
+
+    }
+    .checkbtn {
+        display: block;
+        font-size: 2rem;
+        color: black;
+        cursor: pointer;/* Oculto por defecto */
+        float: right;
+        line-height: 80px;
+    }
+    
+    /* Ocultar el menú en pantallas pequeñas */
+    .barraprincipal ul {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(18, 134, 155);
+        width: 100%;
+        position: absolute;
+        top: 60px; /* Ajusta según el tamaño de tu header */
+        left: 0;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    /* Mostrar el menú cuando se selecciona el checkbox */
+    #check:checked ~ .menu {
+        display: flex;
+    }
+
+    .logo {
+        border-radius: 10rem;
+        padding-left: 2rem;
+        height: 8rem;
+        width: 8rem;
+    }
+
+
+    #seccionprincipal div img {
+        width: 15rem;
+        height: auto;
+    }
+
+    .bienvenida div {
+        margin-left: 0px;
+    }
+
+
+
+    .bienvenida h1 {
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+
+    }
+
+    .contenedor1 .texto {
+        font-size: 1.2rem;
+    }
+
+    .texto h2 {
+        font-size: 2rem;
+    }
+
+    .chat i {
+        bottom: 0.5rem;
+        left: 35rem;
+        font-size: 2.5rem;
+    }
+
+    .titulodeservicios h1 {
+        font-size: 2rem;
+    }
+
+    .servicios {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 2rem;
+
+
+    }
+
+}
 
 /* DISEÑO RESPONSIVE */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* paleta de colores segun chat gpt 
 
